@@ -1,0 +1,98 @@
+{
+  "entries": [{
+    "key": "EA_BASE",
+    "name": "research.base_ea.title",
+    "icons": [
+      "thaumcraft:textures/items/mechanism_simple.png"
+    ],
+    "category": "EXPANDEDARCANUM",
+    "location": [0, 0],
+    "meta": ["SPIKY", "AUTOUNLOCK"],
+    "siblings": ["EA_ARTIFICE", "EA_ALCHEMY", "EA_GOLEMANCY", "EA_INFUSION"],
+    "stages": [{
+      "text": "research.base_ea.stage.1"
+    }]
+  },
+    {
+      "key": "EA_ALCHEMY",
+      "name": "research.BASEALCHEMY.title",
+      "category": "EXPANDEDARCANUM",
+      "icons": ["thaumcraft:textures/research/cat_alchemy.png"],
+      "location": [3, 0],
+      "parents": ["BASEALCHEMY","AUTOUNLOCK"],
+      "meta": ["ROUND"],
+      "stages": [{
+        "text": "research.ea_alchemy.desc"
+      }]
+    },
+    {
+      "key": "EA_ARTIFICE",
+      "name": "research.BASEARTIFICE.title",
+      "category": "EXPANDEDARCANUM",
+      "icons": ["thaumcraft:textures/research/cat_artifice.png"],
+      "location": [0, 3],
+      "parents": ["BASEARTIFICE","AUTOUNLOCK"],
+      "meta": ["ROUND"],
+      "stages": [{
+        "text": "research.ea_artifice.desc"
+      }]
+    },
+    {
+      "key": "EA_GOLEMANCY",
+      "name": "research.BASEGOLEMANCY.title",
+      "icons": ["thaumcraft:textures/research/cat_golemancy.png"],
+      "category": "EXPANDEDARCANUM",
+      "location": [0, -3],
+      "parents": ["BASEGOLEMANCY","AUTOUNLOCK"],
+      "meta": ["ROUND","AUTOUNLOCK"],
+      "stages": [{
+        "text": "research.ea_golemancy.desc"
+      }]
+    },
+    {
+      "key": "EA_INFUSION",
+      "name": "research.BASEINFUSION.title",
+      "icons": ["thaumcraft:textures/research/cat_infusion.png"],
+      "category": "EXPANDEDARCANUM",
+      "location": [-3, 0],
+      "parents": ["INFUSION"],
+      "meta": ["ROUND","AUTOUNLOCK"],
+      "stages": [{
+        "text": "research.ea_infusion.desc"
+      }]
+    },
+    {
+      "key": "METALPURIFICATION",
+      "name": "research.EA_METALPURIFICATION.title",
+      "icons": ["thaumcraft:cluster"],
+      "category": "EXPANDEDARCANUM",
+      "location": [5, -2],
+      "parents": ["EA_ALCHEMY", "~METALPURIFICATION@1"],
+      "siblings": [
+        "EA_METALPURIFICATION_IE"
+      ],
+      "stages": [{
+        "text": "research.EA_METALPURIFICATION.desc"
+      }]
+    },
+    {
+      "key": "EA_MIMICFORK",
+      "name": "research.EA_MIMICFORK.title",
+      "icons": ["ea:mimic_fork"],
+      "category": "EXPANDEDARCANUM",
+      "location": [2, 2],
+      "parents": ["EA_ARTIFICE"],
+      "stages": [{
+        "text": "research.EA_MIMICFORK.desc.1",
+        "required_knowledgeauram": ["OBSERVATION;ARTIFICE;1"],
+        "required_research": ["!sensus"],
+        "required_craft": ["minecraft:noteblock"]
+      },
+        {
+          "text": "research.EA_MIMICFORK.desc.2",
+          "recipes": ["ea:mimic_fork"]
+        }
+      ]
+    }
+  ]
+}

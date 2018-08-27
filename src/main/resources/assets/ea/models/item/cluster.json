@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ea:items/cluster_base",
+    "layer1": "ea:items/cluster_tint"
+
+  }
+}
