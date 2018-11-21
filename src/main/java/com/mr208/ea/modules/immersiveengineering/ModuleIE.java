@@ -70,7 +70,7 @@ public class ModuleIE implements IEAModule
 	@Override
 	public void onPostInit()
 	{
-		ThaumcraftApi.addInfusionCraftingRecipe(new ResourceLocation(ExpandedArcanum.MOD_ID,"upgrade_refining"), new InfusionRecipe("EA_IEUPGREFINING", new ItemStack(upgradeRefining), 1,(new AspectList().add(Aspect.ORDER, 80).add(Aspect.EXCHANGE, 60)),new ItemStack(ItemsTC.mechanismSimple), new ItemStack(ItemsTC.salisMundus),new ItemStack(ItemsTC.nuggets,1,10), new ItemStack(ItemsTC.salisMundus), new ItemStack(ItemsTC.nuggets,1,10)));
+		ThaumcraftApi.addInfusionCraftingRecipe(new ResourceLocation(ExpandedArcanum.MOD_ID,"upgrade_refining"), new InfusionRecipe("EA_UPGRADEREFINING", new ItemStack(upgradeRefining), 1,(new AspectList().add(Aspect.ORDER, 80).add(Aspect.EXCHANGE, 60)),new ItemStack(ItemsTC.mechanismSimple), new ItemStack(ItemsTC.salisMundus),new ItemStack(ItemsTC.nuggets,1,10), new ItemStack(ItemsTC.salisMundus), new ItemStack(ItemsTC.nuggets,1,10)));
 		
 	}
 }

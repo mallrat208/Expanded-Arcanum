@@ -64,7 +64,7 @@ public class ItemCluster extends ItemBase
 		ThaumcraftApi.addSmeltingBonus(oreName, new ItemStack(ItemsTC.nuggets,1,10), chanceEarths);
 		
 		ThaumcraftApi.addCrucibleRecipe(new ResourceLocation(ExpandedArcanum.MOD_ID, "metal_purification_"+metalName.toLowerCase()),
-				new CrucibleRecipe(researchKey, new ItemStack(this,1), oreName, new AspectList().add(Aspect.METAL,5).add(Aspect.ORDER,5)));
+				new CrucibleRecipe("EA_METALPURIFICATION_IE", new ItemStack(this,1), oreName, new AspectList().add(Aspect.METAL,5).add(Aspect.ORDER,5)));
 		
 		
 		if(OreDictionary.doesOreNameExist(oreName))
