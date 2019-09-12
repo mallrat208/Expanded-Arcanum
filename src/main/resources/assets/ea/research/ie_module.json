@@ -6,7 +6,7 @@
       "icons": ["ea:upgrade_refining"],
       "category": "EXPANDEDARCANUM",
       "location": [-4,2],
-      "parents": ["EA_INFUSION","~INFUSIONENCHANTMENTS"],
+      "parents": ["EA_INFUSION","INFUSIONENCHANTMENT"],
       "meta": ["HIDDEN"],
       "stages":[
         {

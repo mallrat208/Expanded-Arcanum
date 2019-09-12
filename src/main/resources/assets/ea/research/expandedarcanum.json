@@ -7,7 +7,7 @@
     ],
     "category": "EXPANDEDARCANUM",
     "location": [0, 0],
-    "meta": ["SPIKY", "AUTOUNLOCK"],
+    "meta": ["SPIKY"],
     "siblings": ["EA_ARTIFICE", "EA_ALCHEMY", "EA_GOLEMANCY", "EA_INFUSION"],
     "stages": [{
       "text": "research.base_ea.stage.1"
@@ -19,7 +19,7 @@
       "category": "EXPANDEDARCANUM",
       "icons": ["thaumcraft:textures/research/cat_alchemy.png"],
       "location": [3, 0],
-      "parents": ["BASEALCHEMY","AUTOUNLOCK"],
+      "parents": ["BASEALCHEMY"],
       "meta": ["ROUND"],
       "stages": [{
         "text": "research.ea_alchemy.desc"
@@ -31,7 +31,7 @@
       "category": "EXPANDEDARCANUM",
       "icons": ["thaumcraft:textures/research/cat_artifice.png"],
       "location": [0, 3],
-      "parents": ["BASEARTIFICE","AUTOUNLOCK"],
+      "parents": ["BASEARTIFICE"],
       "meta": ["ROUND"],
       "stages": [{
         "text": "research.ea_artifice.desc"
@@ -43,8 +43,8 @@
       "icons": ["thaumcraft:textures/research/cat_golemancy.png"],
       "category": "EXPANDEDARCANUM",
       "location": [0, -3],
-      "parents": ["BASEGOLEMANCY","AUTOUNLOCK"],
-      "meta": ["ROUND","AUTOUNLOCK"],
+      "parents": ["BASEGOLEMANCY"],
+      "meta": ["ROUND"],
       "stages": [{
         "text": "research.ea_golemancy.desc"
       }]
@@ -56,7 +56,7 @@
       "category": "EXPANDEDARCANUM",
       "location": [-3, 0],
       "parents": ["INFUSION"],
-      "meta": ["ROUND","AUTOUNLOCK"],
+      "meta": ["ROUND"],
       "stages": [{
         "text": "research.ea_infusion.desc"
       }]
@@ -67,7 +67,7 @@
       "icons": ["thaumcraft:cluster"],
       "category": "EXPANDEDARCANUM",
       "location": [5, -2],
-      "parents": ["EA_ALCHEMY", "~METALPURIFICATION@1"],
+      "parents": ["EA_ALCHEMY", "METALPURIFICATION@1"],
       "siblings": [
         "EA_METALPURIFICATION_IE"
       ],
