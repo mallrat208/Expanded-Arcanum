@@ -62,14 +62,14 @@
       }]
     },
     {
-      "key": "METALPURIFICATION",
+      "key": "EA_METALPURIFICATION",
       "name": "research.EA_METALPURIFICATION.title",
       "icons": ["thaumcraft:cluster"],
       "category": "EXPANDEDARCANUM",
       "location": [5, -2],
-      "parents": ["EA_ALCHEMY", "METALPURIFICATION@1"],
+      "parents": ["EA_ALCHEMY", "~METALPURIFICATION@1"],
       "siblings": [
-        "EA_METALPURIFICATION_IE"
+        "EA_METAL_PURIFICATION_IE"
       ],
       "stages": [{
         "text": "research.EA_METALPURIFICATION.desc"
@@ -91,6 +91,25 @@
         {
           "text": "research.EA_MIMICFORK.desc.2",
           "recipes": ["ea:mimic_fork"]
+        }
+      ]
+    },
+    {
+      "key": "EA_SEALSHEAR",
+      "name": "research.EA_SEALSHEAR.title",
+      "icons": ["ea:textures/items/seals/seal_shear.png"],
+      "category":"EXPANDEDARCANUM","location": [-2,-2],
+      "parents": ["EA_GOLEMANCY", "~MINDBIOTHAUMIC"],
+      "meta": [],
+      "stages": [
+        {
+          "text": "research.EA_SEALSHEAR.desc.1",
+          "required_research":["!fabrico"],
+          "required_knowledge":["THEORY;GOLEMANCY;1"]
+        },
+        {
+          "text": "research.EA_SEALSHEAR.desc.2",
+          "recipes": ["ea:seal_shear"]
         }
       ]
     }

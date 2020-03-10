@@ -1,13 +1,13 @@
 {
   "entries": [
     {
-      "key": "EA_UPGRADEREFINING",
+      "key": "EA_IEUPGREFINING",
       "name": "research.EA_UPGRADEREFINING.title",
       "icons": ["ea:upgrade_refining"],
       "category": "EXPANDEDARCANUM",
       "location": [-4,2],
-      "parents": ["EA_INFUSION","INFUSIONENCHANTMENT"],
-      "meta": ["HIDDEN"],
+      "parents": ["EA_INFUSION","~INFUSIONENCHANTMENT"],
+      "meta": ["ROUND"],
       "stages":[
         {
           "text": "research.EA_UPGRADEREFINING.desc",
@@ -16,12 +16,12 @@
       ]
     },
     {
-      "key": "EA_METALPURIFICATION_IE",
+      "key": "EA_METAL_PURIFICATION_IE",
       "name": "research.EA_METALPURIFICATION_IE.title",
       "icons": ["ea:cluster_uranium"],
       "category": "EXPANDEDARCANUM",
       "location": [5,-4],
-      "parents": ["METALPURIFICATION"],
+      "parents": ["EA_METALPURIFICATION"],
       "meta": ["ROUND","HIDDEN"],
       "stages": [
         {
